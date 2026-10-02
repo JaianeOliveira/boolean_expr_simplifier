@@ -1,0 +1,115 @@
+{
+  "app": {
+    "name": "logic_reduce"
+  },
+  "nav": {
+    "label": "Navegação principal",
+    "simplify": "Simplificação",
+    "truthTable": "Tabela verdade",
+    "manual": "Manual"
+  },
+  "theme": {
+    "toDark": "Ativar tema escuro",
+    "toLight": "Ativar tema claro"
+  },
+  "simplify": {
+    "title": "Simplificar expressão",
+    "subtitle": "Digite uma expressão booleana e veja cada lei aplicada até a forma mais simples.",
+    "submit": "Simplificar"
+  },
+  "form": {
+    "notation": "Notação",
+    "expression": "Expressão",
+    "clear": "Limpar expressão",
+    "keypad": "Teclado de símbolos",
+    "random": "Exemplo aleatório",
+    "backspace": "Apagar",
+    "errorAt": "Posição {{pos}}"
+  },
+  "notation": {
+    "padrao": "Padrão",
+    "logica": "Lógica",
+    "programacao": "Programação"
+  },
+  "operators": {
+    "not": "NÃO",
+    "and": "E",
+    "or": "OU",
+    "openParen": "Abre parêntese",
+    "closeParen": "Fecha parêntese"
+  },
+  "errors": {
+    "emptyExpression": "Digite uma expressão para simplificar.",
+    "unexpectedSymbol": "O símbolo \"{{token}}\" não é reconhecido.",
+    "unexpectedToken": "\"{{token}}\" não era esperado aqui.",
+    "unexpectedEnd": "A expressão terminou antes do esperado.",
+    "unclosedParen": "Faltou fechar um parêntese.",
+    "trailingToken": "Falta um operador antes de \"{{token}}\"."
+  },
+  "result": {
+    "title": "Resultado",
+    "copy": "Copiar resultado",
+    "copied": "Copiado!",
+    "equivalence": "Equivalentes para todas as {{count}} combinações de {{variables}}.",
+    "equivalenceConstant": "A expressão não depende de nenhuma variável.",
+    "notEquivalent": "Atenção: o resultado não bate com a entrada. Isso é um bug no motor.",
+    "checkTruthTable": "Conferir na tabela verdade"
+  },
+  "steps": {
+    "title": "Passo a passo",
+    "legendBefore": "trecho transformado",
+    "legendAfter": "resultado do passo",
+    "from": "de",
+    "alreadySimple": "A expressão já está na forma mais simples que as regras alcançam.",
+    "doneTitle": "Simplificação concluída",
+    "doneDescription": "Nenhuma outra lei se aplica a esta expressão."
+  },
+  "truthTable": {
+    "title": "Tabela verdade",
+    "subtitle": "Cada linha é uma combinação de valores. As duas últimas colunas precisam ser iguais.",
+    "original": "Entrada",
+    "simplified": "Simplificada",
+    "empty": "Simplifique uma expressão para ver a tabela verdade.",
+    "back": "Voltar para a simplificação"
+  },
+  "manual": {
+    "title": "Manual",
+    "subtitle": "As leis que o simplificador aplica, na ordem em que ele tenta cada uma.",
+    "operatorsTitle": "Operadores aceitos",
+    "lawsTitle": "Leis"
+  },
+  "laws": {
+    "constantNegation": {
+      "name": "Negação de constante",
+      "description": "Negar 0 dá 1, e negar 1 dá 0."
+    },
+    "doubleNegation": {
+      "name": "Dupla negação",
+      "description": "Negar duas vezes devolve o valor original."
+    },
+    "complement": {
+      "name": "Complemento",
+      "description": "Uma variável E a sua negação é sempre 0; OU a sua negação é sempre 1."
+    },
+    "annulment": {
+      "name": "Anulação",
+      "description": "Qualquer coisa E 0 é 0; qualquer coisa OU 1 é 1."
+    },
+    "identity": {
+      "name": "Identidade",
+      "description": "E com 1 ou OU com 0 não muda o valor."
+    },
+    "idempotence": {
+      "name": "Idempotência",
+      "description": "Repetir o mesmo termo não muda o valor."
+    },
+    "absorption": {
+      "name": "Absorção",
+      "description": "Um termo absorve outro que já o contém."
+    },
+    "deMorgan": {
+      "name": "De Morgan",
+      "description": "A negação de um E vira um OU de negações, e vice-versa."
+    }
+  }
+}
