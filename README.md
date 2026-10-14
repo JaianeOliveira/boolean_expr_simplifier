@@ -2,7 +2,9 @@
 
 Simplificador de expressões booleanas que mostra **cada lei aplicada**, do começo ao fim, junto com a tabela verdade e um manual das leis da álgebra booleana.
 
-**Acesse:** https://jaianeoliveira.github.io/boolean_expr_simplifier/
+**Acesse em:** https://jaianeoliveira.github.io/boolean_expr_simplifier/
+
+<img width="2032" height="1088" alt="Captura de Tela 2026-10-14 às 20 38 31" src="https://github.com/user-attachments/assets/17df81c4-5674-43b8-b63e-03d68273e607" />
 
 ## O que ele faz
 
