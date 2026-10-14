@@ -1,5 +1,5 @@
 # logic_reduce
-
+https://jaianeoliveira.github.io/boolean_expr_simplifier/
 Simplificador de expressões booleanas com passo a passo, tabela verdade e manual das leis.
 
 ## Rodando
