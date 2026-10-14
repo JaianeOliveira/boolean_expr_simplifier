@@ -1,4 +1,4 @@
-# logic_reduce
+# Simplificador de expressões booleanas
 
 Simplificador de expressões booleanas que mostra **cada lei aplicada**, do começo ao fim, junto com a tabela verdade e um manual das leis da álgebra booleana.
 
